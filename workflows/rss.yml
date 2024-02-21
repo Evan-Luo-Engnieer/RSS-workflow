@@ -1,8 +1,7 @@
 on:
   rss:
-    url:
-      - https://feeds.bbci.co.uk/zhongwen/simp/rss.xml
-      - rsshub.app/wsj/zh-cn
+    url: https://feeds.bbci.co.uk/zhongwen/simp/rss.xml
+#      - rsshub.app/wsj/zh-cn
 jobs:
   request:
     name: Make a HTTP Request
