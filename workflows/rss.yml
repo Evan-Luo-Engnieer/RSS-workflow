@@ -1,6 +1,6 @@
 on:
   rss:
-    url: https://feeds.bbci.co.uk/zhongwen/simp/rss.xml
+    url: rsshub.app/wsj/zh-cn
 #      - rsshub.app/wsj/zh-cn
 jobs:
   request:
