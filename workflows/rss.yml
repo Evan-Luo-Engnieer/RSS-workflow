@@ -13,10 +13,8 @@ jobs:
         with:
           url: https://cubox.pro/c/api/save/a2fNEwXO1SG
           method: POST
-          body: |
-            {
-"type":"url",
-"content":"${{ on.rss.outputs.link }}",
-"title": "${{ on.rss.outputs.title }}",
-"folder":"收集箱"
-}
+          body:
+            "type": "url"
+            "content": "${{ on.rss.outputs.link }}"
+            "title": "${{ on.rss.outputs.title }}"
+            "folder": "收集箱"
